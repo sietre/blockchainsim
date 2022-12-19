@@ -1,7 +1,6 @@
-This is the code that runs a simulated block chain on a server in a VM setup by Professor Scott Yilek for the Advanced Information Security Final
+This is the code that runs a simulated block chain on a server in a VM setup by Professor Scott Yilek for the Advanced Information Security Final. This code would be run via a terminal that would connect to Yilek’s server that would perform all of the POST and GET request functions needed to simulate a safe block chain data exchange environment. 
 
-I created modified the transactions to create interactivity across the profiles stored within the block chain and to test the validity of each interaction using the public and secret keys of each account
+I created modified the transactions to create interactivity across the profiles stored within the block chain and to test the validity of each interaction using the public and secret keys of each account. When fully implemented, the user could create new transactions and mining attempts, generate new blocks, get the current blockchain, view available coins, see all used coins, etc. It also tracked invalid transactions and mines, so that there could be no false alteration of the chain (when being properly run in the terminal.
 
-I modified the wallet to keep track of each user's coins and to mine coins to add to one of the user's coins
-
-When run on the server, the code would allow the user to "be" any of the 5 users in the chain and complete full transactions while updating the chain in currchain text file.
+I modified the wallet to keep track of each user's coins and to mine coins to add to one of the user's coins.
+When run on the server, the code would allow the user to "be" any of the 5 users in the chain and complete full transactions while updating the chain in currchain text file, so one could see all of the previous transactions and current state of the chain outside of running the application.
